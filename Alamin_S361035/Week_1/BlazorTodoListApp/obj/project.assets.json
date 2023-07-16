@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp1/BlazorApp1.csproj",
+      "projectUniqueName": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/BlazorApp1.csproj",
       "projectName": "BlazorApp1",
-      "projectPath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp1/BlazorApp1.csproj",
+      "projectPath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/BlazorApp1.csproj",
       "packagesPath": "/Users/alaminsarker/.nuget/packages/",
-      "outputPath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp1/obj/",
+      "outputPath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alaminsarker/.nuget/NuGet/NuGet.Config"
