@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorApp\\obj\\Debug\\net7.0\\project.razor.json",
-  "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorApp\\BlazorApp.csproj",
+  "SerializedFilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorApp\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorApp\\BlazorApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "7.0",
@@ -13,7 +13,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1598518002,
+        "HashCode": -1160881887,
         "Kind": "Components.Component",
         "Name": "BlazorApp.Pages.Counter",
         "AssemblyName": "BlazorApp",
@@ -21,17 +21,6 @@
         "TagMatchingRules": [
           {
             "TagName": "Counter"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "IncrementAmount",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "IncrementAmount",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
           }
         ],
         "Metadata": {
@@ -42,7 +31,7 @@
         }
       },
       {
-        "HashCode": -1573233955,
+        "HashCode": -579841660,
         "Kind": "Components.Component",
         "Name": "BlazorApp.Pages.Counter",
         "AssemblyName": "BlazorApp",
@@ -50,17 +39,6 @@
         "TagMatchingRules": [
           {
             "TagName": "BlazorApp.Pages.Counter"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "IncrementAmount",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "IncrementAmount",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
           }
         ],
         "Metadata": {
@@ -19017,54 +18995,54 @@
   "RootNamespace": "BlazorApp",
   "Documents": [
     {
-      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorApp\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorApp\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorApp\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorApp\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorApp\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorApp\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorApp\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorApp\\_Imports.razor",
+      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorApp\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorApp\\Shared\\SurveyPrompt.razor",
+      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorApp\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorApp\\Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorApp\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorApp\\Pages\\_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
+      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorApp\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorApp\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorApp\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorApp\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorApp\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\CDU\\Software now\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorApp\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
     }
   ],
   "SerializationFormat": "0.3"
