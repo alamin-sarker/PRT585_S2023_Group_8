@@ -13,6 +13,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+<<<<<<< HEAD
         "HashCode": 1439569861,
         "Kind": "Components.Component",
         "Name": "BlazorApp.Pages.Counter",
@@ -51,6 +52,9 @@
       },
       {
         "HashCode": -948873041,
+=======
+        "HashCode": 1490165218,
+>>>>>>> 802f0539b830cd33bb95c881d6fc3f417eb9e03c
         "Kind": "Components.Component",
         "Name": "BlazorApp.Pages.FetchData",
         "AssemblyName": "BlazorApp",
@@ -87,7 +91,70 @@
         }
       },
       {
+<<<<<<< HEAD
         "HashCode": -1327439056,
+=======
+        "HashCode": 521169634,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Pages.Counter",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "IncrementAmount",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "IncrementAmount",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorApp.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
+          "Common.TypeNamespace": "BlazorApp.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 876525895,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Pages.Counter",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorApp.Pages.Counter"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "IncrementAmount",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "IncrementAmount",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorApp.Pages.Counter",
+          "Common.TypeNameIdentifier": "Counter",
+          "Common.TypeNamespace": "BlazorApp.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 763539791,
+>>>>>>> 802f0539b830cd33bb95c881d6fc3f417eb9e03c
         "Kind": "Components.Component",
         "Name": "BlazorApp.Pages.Index",
         "AssemblyName": "BlazorApp",
@@ -124,17 +191,22 @@
         }
       },
       {
+<<<<<<< HEAD
         "HashCode": 1086548,
+=======
+        "HashCode": 1832240638,
+>>>>>>> 802f0539b830cd33bb95c881d6fc3f417eb9e03c
         "Kind": "Components.Component",
-        "Name": "BlazorApp.App",
+        "Name": "BlazorApp.Shared.NavMenu",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
+<<<<<<< HEAD
           "Common.TypeName": "BlazorApp.App",
           "Common.TypeNameIdentifier": "App",
           "Common.TypeNamespace": "BlazorApp",
@@ -185,35 +257,32 @@
         "Metadata": {
           "Common.TypeName": "BlazorApp.Shared.SurveyPrompt",
           "Common.TypeNameIdentifier": "SurveyPrompt",
+=======
+          "Common.TypeName": "BlazorApp.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+>>>>>>> 802f0539b830cd33bb95c881d6fc3f417eb9e03c
           "Common.TypeNamespace": "BlazorApp.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
+<<<<<<< HEAD
         "HashCode": 2071935927,
+=======
+        "HashCode": -1038731878,
+>>>>>>> 802f0539b830cd33bb95c881d6fc3f417eb9e03c
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.SurveyPrompt",
+        "Name": "BlazorApp.Shared.NavMenu",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
+            "TagName": "BlazorApp.Shared.NavMenu"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeName": "BlazorApp.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "BlazorApp.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -326,44 +395,115 @@
         }
       },
       {
+<<<<<<< HEAD
         "HashCode": 155087471,
+=======
+        "HashCode": -157850680,
+>>>>>>> 802f0539b830cd33bb95c881d6fc3f417eb9e03c
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.NavMenu",
+        "Name": "BlazorApp.Shared.SurveyPrompt",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeName": "BlazorApp.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
           "Common.TypeNamespace": "BlazorApp.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
+<<<<<<< HEAD
         "HashCode": -648910301,
+=======
+        "HashCode": -2084962389,
+>>>>>>> 802f0539b830cd33bb95c881d6fc3f417eb9e03c
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.NavMenu",
+        "Name": "BlazorApp.Shared.SurveyPrompt",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Shared.NavMenu"
+            "TagName": "BlazorApp.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeName": "BlazorApp.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
           "Common.TypeNamespace": "BlazorApp.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
+<<<<<<< HEAD
         "HashCode": -1221318700,
+=======
+        "HashCode": -648235936,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.App",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorApp.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "BlazorApp",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1822460238,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.App",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorApp.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorApp.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "BlazorApp",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1611306566,
+>>>>>>> 802f0539b830cd33bb95c881d6fc3f417eb9e03c
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
