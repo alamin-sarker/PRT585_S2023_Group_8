@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CDU\\July_2023\\PRT585_SoftwareEngineeringPractice\\PRT585_S2023_Group_8\\Shiva_S361033\\Week_1\\BlazorAppToDo\\BlazorAppToDo.csproj": {}
+    "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/BlazorAppToDo.csproj": {}
   },
   "projects": {
-    "D:\\CDU\\July_2023\\PRT585_SoftwareEngineeringPractice\\PRT585_S2023_Group_8\\Shiva_S361033\\Week_1\\BlazorAppToDo\\BlazorAppToDo.csproj": {
+    "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/BlazorAppToDo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CDU\\July_2023\\PRT585_SoftwareEngineeringPractice\\PRT585_S2023_Group_8\\Shiva_S361033\\Week_1\\BlazorAppToDo\\BlazorAppToDo.csproj",
+        "projectUniqueName": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/BlazorAppToDo.csproj",
         "projectName": "BlazorAppToDo",
-        "projectPath": "D:\\CDU\\July_2023\\PRT585_SoftwareEngineeringPractice\\PRT585_S2023_Group_8\\Shiva_S361033\\Week_1\\BlazorAppToDo\\BlazorAppToDo.csproj",
-        "packagesPath": "C:\\Users\\Shiva Gupta\\.nuget\\packages\\",
-        "outputPath": "D:\\CDU\\July_2023\\PRT585_SoftwareEngineeringPractice\\PRT585_S2023_Group_8\\Shiva_S361033\\Week_1\\BlazorAppToDo\\obj\\",
+        "projectPath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/BlazorAppToDo.csproj",
+        "packagesPath": "/Users/alaminsarker/.nuget/packages/",
+        "outputPath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shiva Gupta\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/alaminsarker/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     }
