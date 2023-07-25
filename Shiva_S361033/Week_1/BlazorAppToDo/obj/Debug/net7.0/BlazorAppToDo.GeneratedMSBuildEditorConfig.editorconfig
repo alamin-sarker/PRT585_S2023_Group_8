@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorAppToDo
 build_property.RootNamespace = BlazorAppToDo
-build_property.ProjectDir = D:\CDU\July_2023\PRT585_SoftwareEngineeringPractice\PRT585_S2023_Group_8\Shiva_S361033\Week_1\BlazorAppToDo\
+build_property.ProjectDir = /Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\CDU\July_2023\PRT585_SoftwareEngineeringPractice\PRT585_S2023_Group_8\Shiva_S361033\Week_1\BlazorAppToDo
+build_property.MSBuildProjectDirectory = /Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/CDU/July_2023/PRT585_SoftwareEngineeringPractice/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/App.razor]
+[/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CDU/July_2023/PRT585_SoftwareEngineeringPractice/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CDU/July_2023/PRT585_SoftwareEngineeringPractice/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+[/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CDU/July_2023/PRT585_SoftwareEngineeringPractice/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CDU/July_2023/PRT585_SoftwareEngineeringPractice/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/Todo.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kby5yYXpvcg==
+[/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/Todo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVG9kby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CDU/July_2023/PRT585_SoftwareEngineeringPractice/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CDU/July_2023/PRT585_SoftwareEngineeringPractice/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/_Imports.razor]
+[/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CDU/July_2023/PRT585_SoftwareEngineeringPractice/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-xyvhoptyji
+[/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-zowv2wbooj
 
-[D:/CDU/July_2023/PRT585_SoftwareEngineeringPractice/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-807qbc7dxb
+[/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-o4jsjht9q5
 
-[D:/CDU/July_2023/PRT585_SoftwareEngineeringPractice/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CDU/July_2023/PRT585_SoftwareEngineeringPractice/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+[/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
