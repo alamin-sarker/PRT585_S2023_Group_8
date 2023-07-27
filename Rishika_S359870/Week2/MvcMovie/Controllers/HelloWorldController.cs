@@ -13,7 +13,6 @@ namespace MvcMovie.Controllers
     return View();
 }
         
-
         // 
         // GET: /HelloWorld/Welcome/ 
 // Requires using System.Text.Encodings.Web;
