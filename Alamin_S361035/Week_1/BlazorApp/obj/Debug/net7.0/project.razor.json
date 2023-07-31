@@ -42,6 +42,7 @@
         }
       },
       {
+        "HashCode": 1199508264,
         "HashCode": -843375527,
         "Kind": "Components.Component",
         "Name": "BlazorApp.Pages.Counter",
