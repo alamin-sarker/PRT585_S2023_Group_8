@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp/obj/Debug/net7.0/project.razor.json",
-  "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp/BlazorApp.csproj",
+  "SerializedFilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/obj/Debug/net7.0/project.razor.json",
+  "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/BlazorAppToDo.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "7.0",
@@ -13,10 +13,10 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1002393901,
+        "HashCode": -1867268712,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.Counter",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Pages.Counter",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -26,56 +26,56 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "IncrementAmount",
+            "Name": "IncrementBy",
             "TypeName": "System.Int32",
             "Metadata": {
-              "Common.PropertyName": "IncrementAmount",
+              "Common.PropertyName": "IncrementBy",
               "Common.GloballyQualifiedTypeName": "global::System.Int32"
             }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Pages.Counter",
+          "Common.TypeName": "BlazorAppToDo.Pages.Counter",
           "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "BlazorApp.Pages",
+          "Common.TypeNamespace": "BlazorAppToDo.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 1199508264,
+        "HashCode": -686261845,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.Counter",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Pages.Counter",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Pages.Counter"
+            "TagName": "BlazorAppToDo.Pages.Counter"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "IncrementAmount",
+            "Name": "IncrementBy",
             "TypeName": "System.Int32",
             "Metadata": {
-              "Common.PropertyName": "IncrementAmount",
+              "Common.PropertyName": "IncrementBy",
               "Common.GloballyQualifiedTypeName": "global::System.Int32"
             }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Pages.Counter",
+          "Common.TypeName": "BlazorAppToDo.Pages.Counter",
           "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "BlazorApp.Pages",
+          "Common.TypeNamespace": "BlazorAppToDo.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 1144617620,
+        "HashCode": -1803132712,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.FetchData",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Pages.FetchData",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -83,36 +83,36 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Pages.FetchData",
+          "Common.TypeName": "BlazorAppToDo.Pages.FetchData",
           "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "BlazorApp.Pages",
+          "Common.TypeNamespace": "BlazorAppToDo.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -404974802,
+        "HashCode": -1443533322,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.FetchData",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Pages.FetchData",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Pages.FetchData"
+            "TagName": "BlazorAppToDo.Pages.FetchData"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Pages.FetchData",
+          "Common.TypeName": "BlazorAppToDo.Pages.FetchData",
           "Common.TypeNameIdentifier": "FetchData",
-          "Common.TypeNamespace": "BlazorApp.Pages",
+          "Common.TypeNamespace": "BlazorAppToDo.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 625486267,
+        "HashCode": -1132334890,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.Index",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Pages.Index",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -120,36 +120,73 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Pages.Index",
+          "Common.TypeName": "BlazorAppToDo.Pages.Index",
           "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "BlazorApp.Pages",
+          "Common.TypeNamespace": "BlazorAppToDo.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -242798842,
+        "HashCode": 1028130632,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.Index",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Pages.Index",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Pages.Index"
+            "TagName": "BlazorAppToDo.Pages.Index"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Pages.Index",
+          "Common.TypeName": "BlazorAppToDo.Pages.Index",
           "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "BlazorApp.Pages",
+          "Common.TypeNamespace": "BlazorAppToDo.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -861636166,
+        "HashCode": 21878429,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.App",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Pages.Todo",
+        "AssemblyName": "BlazorAppToDo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Todo"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorAppToDo.Pages.Todo",
+          "Common.TypeNameIdentifier": "Todo",
+          "Common.TypeNamespace": "BlazorAppToDo.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1829228240,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppToDo.Pages.Todo",
+        "AssemblyName": "BlazorAppToDo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppToDo.Pages.Todo"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BlazorAppToDo.Pages.Todo",
+          "Common.TypeNameIdentifier": "Todo",
+          "Common.TypeNamespace": "BlazorAppToDo.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -26827127,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppToDo.App",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -157,36 +194,36 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.App",
+          "Common.TypeName": "BlazorAppToDo.App",
           "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "BlazorApp",
+          "Common.TypeNamespace": "BlazorAppToDo",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -1145324692,
+        "HashCode": 1897311861,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.App",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.App",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.App"
+            "TagName": "BlazorAppToDo.App"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.App",
+          "Common.TypeName": "BlazorAppToDo.App",
           "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "BlazorApp",
+          "Common.TypeNamespace": "BlazorAppToDo",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -290045585,
+        "HashCode": 553058657,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.SurveyPrompt",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Shared.SurveyPrompt",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -205,21 +242,21 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Shared.SurveyPrompt",
+          "Common.TypeName": "BlazorAppToDo.Shared.SurveyPrompt",
           "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "BlazorApp.Shared",
+          "Common.TypeNamespace": "BlazorAppToDo.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 341627772,
+        "HashCode": -170787744,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.SurveyPrompt",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Shared.SurveyPrompt",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Shared.SurveyPrompt"
+            "TagName": "BlazorAppToDo.Shared.SurveyPrompt"
           }
         ],
         "BoundAttributes": [
@@ -234,18 +271,18 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Shared.SurveyPrompt",
+          "Common.TypeName": "BlazorAppToDo.Shared.SurveyPrompt",
           "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "BlazorApp.Shared",
+          "Common.TypeNamespace": "BlazorAppToDo.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -354945682,
+        "HashCode": -1591340196,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.MainLayout",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Shared.MainLayout",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -266,21 +303,21 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Shared.MainLayout",
+          "Common.TypeName": "BlazorAppToDo.Shared.MainLayout",
           "Common.TypeNameIdentifier": "MainLayout",
-          "Common.TypeNamespace": "BlazorApp.Shared",
+          "Common.TypeNamespace": "BlazorAppToDo.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -1129952427,
+        "HashCode": -2004961585,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.MainLayout",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Shared.MainLayout",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Shared.MainLayout"
+            "TagName": "BlazorAppToDo.Shared.MainLayout"
           }
         ],
         "BoundAttributes": [
@@ -297,18 +334,18 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Shared.MainLayout",
+          "Common.TypeName": "BlazorAppToDo.Shared.MainLayout",
           "Common.TypeNameIdentifier": "MainLayout",
-          "Common.TypeNamespace": "BlazorApp.Shared",
+          "Common.TypeNamespace": "BlazorAppToDo.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 893333527,
+        "HashCode": 1317589815,
         "Kind": "Components.ChildContent",
-        "Name": "BlazorApp.Shared.MainLayout.Body",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Shared.MainLayout.Body",
+        "AssemblyName": "BlazorAppToDo",
         "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -318,40 +355,40 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Shared.MainLayout.Body",
+          "Common.TypeName": "BlazorAppToDo.Shared.MainLayout.Body",
           "Common.TypeNameIdentifier": "MainLayout",
-          "Common.TypeNamespace": "BlazorApp.Shared",
+          "Common.TypeNamespace": "BlazorAppToDo.Shared",
           "Components.IsSpecialKind": "Components.ChildContent",
           "Runtime.Name": "Components.None"
         }
       },
       {
-        "HashCode": 296463756,
+        "HashCode": 1404576881,
         "Kind": "Components.ChildContent",
-        "Name": "BlazorApp.Shared.MainLayout.Body",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Shared.MainLayout.Body",
+        "AssemblyName": "BlazorAppToDo",
         "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\">\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        </member>",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
             "TagName": "Body",
-            "ParentTag": "BlazorApp.Shared.MainLayout"
+            "ParentTag": "BlazorAppToDo.Shared.MainLayout"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Shared.MainLayout.Body",
+          "Common.TypeName": "BlazorAppToDo.Shared.MainLayout.Body",
           "Common.TypeNameIdentifier": "MainLayout",
-          "Common.TypeNamespace": "BlazorApp.Shared",
+          "Common.TypeNamespace": "BlazorAppToDo.Shared",
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
         }
       },
       {
-        "HashCode": 1354338894,
+        "HashCode": -590148612,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.NavMenu",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Shared.NavMenu",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -359,27 +396,27 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Shared.NavMenu",
+          "Common.TypeName": "BlazorAppToDo.Shared.NavMenu",
           "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "BlazorApp.Shared",
+          "Common.TypeNamespace": "BlazorAppToDo.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -1826000320,
+        "HashCode": -2035336699,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.NavMenu",
-        "AssemblyName": "BlazorApp",
+        "Name": "BlazorAppToDo.Shared.NavMenu",
+        "AssemblyName": "BlazorAppToDo",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Shared.NavMenu"
+            "TagName": "BlazorAppToDo.Shared.NavMenu"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BlazorApp.Shared.NavMenu",
+          "Common.TypeName": "BlazorAppToDo.Shared.NavMenu",
           "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "BlazorApp.Shared",
+          "Common.TypeNamespace": "BlazorAppToDo.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -19014,56 +19051,61 @@
     ],
     "CSharpLanguageVersion": 1100
   },
-  "RootNamespace": "BlazorApp",
+  "RootNamespace": "BlazorAppToDo",
   "Documents": [
     {
-      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp/Shared/NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp/Pages/Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp/Pages/_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp/App.razor",
+      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp/Pages/Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp/_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp/Pages/Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp/Shared/MainLayout.razor",
+      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Shared/MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorApp/Pages/FetchData.razor",
+      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/Todo.razor",
+      "TargetPath": "Pages\\Todo.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Shared/NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Shared/SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Shiva_S361033/Week_1/BlazorAppToDo/Pages/Index.razor",
+      "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     }
   ],
