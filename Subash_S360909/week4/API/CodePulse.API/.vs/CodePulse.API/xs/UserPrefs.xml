@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{1C72651A-1638-4BC6-975E-1D1FAA39592B}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CodePulse.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="CodePulse.API/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodePulse.API" expanded="True">
+            <Node name="CodePulse.API" expanded="True" selected="True">
+              <Node name="ConnectedServicesFolder" selected="True" />
+              <Node name="Dependencies" expanded="True" selected="True">
+                <Node name="FrameworkReferences" expanded="True" selected="True">
+                  <Node name="Microsoft.AspNetCore.App" selected="True" />
+                  <Node name="Microsoft.NETCore.App" selected="True" />
+                </Node>
+                <Node name="PackageDependencies" selected="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" selected="True">
+                <Node name="WeatherForecastController.cs" selected="True" />
+              </Node>
+              <Node name="Properties" selected="True" />
+              <Node name="appsettings.json" selected="True" />
+              <Node name="Program.cs" selected="True" />
+              <Node name="WeatherForecast.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
