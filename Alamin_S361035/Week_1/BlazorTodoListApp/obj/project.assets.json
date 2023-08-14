@@ -8,26 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/alaminsarker/.nuget/packages/": {}
+    "/Users/carolinadecala/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/BlazorApp1.csproj",
+      "projectUniqueName": "/Users/carolinadecala/Documents/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/BlazorApp1.csproj",
       "projectName": "BlazorApp1",
-      "projectPath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/BlazorApp1.csproj",
-      "packagesPath": "/Users/alaminsarker/.nuget/packages/",
-      "outputPath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/obj/",
+      "projectPath": "/Users/carolinadecala/Documents/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/BlazorApp1.csproj",
+      "packagesPath": "/Users/carolinadecala/.nuget/packages/",
+      "outputPath": "/Users/carolinadecala/Documents/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/alaminsarker/.nuget/NuGet/NuGet.Config"
+        "/Users/carolinadecala/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
-        "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
       }
     }
   }
