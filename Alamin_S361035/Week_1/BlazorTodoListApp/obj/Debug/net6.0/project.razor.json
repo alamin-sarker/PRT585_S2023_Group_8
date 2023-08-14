@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/obj/Debug/net6.0/project.razor.json",
-  "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/BlazorApp1.csproj",
+  "SerializedFilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\obj\\Debug\\net6.0\\project.razor.json",
+  "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\BlazorApp1.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -11,6 +11,7 @@
     ]
   },
   "ProjectWorkspaceState": {
+<<<<<<< HEAD
     "TagHelpers": [
       {
         "HashCode": -138449836,
@@ -18778,11 +18779,15 @@
         }
       }
     ],
+=======
+    "TagHelpers": [],
+>>>>>>> 2fc29b7e56177fde146cfe0420534687a749053f
     "CSharpLanguageVersion": 1000
   },
   "RootNamespace": "BlazorApp1",
   "Documents": [
     {
+<<<<<<< HEAD
       "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/Pages/_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
@@ -18794,10 +18799,14 @@
     },
     {
       "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/Pages/Error.cshtml",
+=======
+      "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\Pages\\Error.cshtml",
+>>>>>>> 2fc29b7e56177fde146cfe0420534687a749053f
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
       "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/Shared/NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
@@ -18819,28 +18828,80 @@
     },
     {
       "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/App.razor",
+=======
+      "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\App.razor",
+>>>>>>> 2fc29b7e56177fde146cfe0420534687a749053f
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
+<<<<<<< HEAD
       "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/Pages/Todo.razor",
+=======
+      "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\Pages\\Todo.razor",
+>>>>>>> 2fc29b7e56177fde146cfe0420534687a749053f
       "TargetPath": "Pages\\Todo.razor",
       "FileKind": "component"
     },
     {
+<<<<<<< HEAD
       "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/Pages/_Layout.cshtml",
       "TargetPath": "Pages\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/Pages/Index.razor",
+=======
+      "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\Pages\\Index.razor",
+>>>>>>> 2fc29b7e56177fde146cfe0420534687a749053f
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
+<<<<<<< HEAD
       "FilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Alamin_S361035/Week_1/BlazorTodoListApp/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+=======
+      "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\Pages\\_Layout.cshtml",
+      "TargetPath": "Pages\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Alamin_S361035\\Week_1\\BlazorTodoListApp\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+>>>>>>> 2fc29b7e56177fde146cfe0420534687a749053f
     }
   ],
   "SerializationFormat": "0.3"
