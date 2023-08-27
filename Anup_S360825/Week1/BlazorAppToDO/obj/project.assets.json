@@ -8,11 +8,16 @@
     "net7.0": []
   },
   "packageFolders": {
+<<<<<<< Updated upstream
     "C:\\Users\\61410\\.nuget\\packages\\": {}
+=======
+    "/Users/carolinadecala/.nuget/packages/": {}
+>>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorAppToDO\\BlazorAppToDO.csproj",
       "projectName": "BlazorAppToDO",
       "projectPath": "C:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorAppToDO\\BlazorAppToDO.csproj",
@@ -21,12 +26,22 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\61410\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "/Users/carolinadecala/Documents/PRT585_S2023_Group_8/Anup_S360825/Week1/BlazorAppToDO/BlazorAppToDO.csproj",
+      "projectName": "BlazorAppToDO",
+      "projectPath": "/Users/carolinadecala/Documents/PRT585_S2023_Group_8/Anup_S360825/Week1/BlazorAppToDO/BlazorAppToDO.csproj",
+      "packagesPath": "/Users/carolinadecala/.nuget/packages/",
+      "outputPath": "/Users/carolinadecala/Documents/PRT585_S2023_Group_8/Anup_S360825/Week1/BlazorAppToDO/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/carolinadecala/.nuget/NuGet/NuGet.Config"
+>>>>>>> Stashed changes
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -63,7 +78,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "UPHWy0MYtiQCIuWWBrkdPgetpgs8Dm+9UN1lcHmcHnurVL7io+yOiK6DFv+RtdnsV7dsDo5+xA6QUHXmRkRNow==",
   "success": true,
   "projectFilePath": "C:\\CDU\\PRT585\\PRT585_S2023_Group_8\\Anup_S360825\\Week1\\BlazorAppToDO\\BlazorAppToDO.csproj",
+=======
+  "dgSpecHash": "BhkazmHNreWS/n8jVR4vH5qkTRvJKSeWWr17VK8dUdbkiT6NJ7Ei8zSyLW8kVCueNApEDJ8U6pktQoDSZ5W4iQ==",
+  "success": true,
+  "projectFilePath": "/Users/carolinadecala/Documents/PRT585_S2023_Group_8/Anup_S360825/Week1/BlazorAppToDO/BlazorAppToDO.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }
