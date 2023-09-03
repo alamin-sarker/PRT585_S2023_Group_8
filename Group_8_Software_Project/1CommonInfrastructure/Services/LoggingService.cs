@@ -28,7 +28,7 @@ namespace _1CommonInfrastructure.Services
 
         public void WriteLog(string keyArea, string message, object additionalInfo = null, Exception ex = null)
         {
-            var connectionString = "data source=.\\sqlexpress01;initial catalog=testdb27Sep22;integrated security=True;MultipleActiveResultSets=True;TrustServerCertificate=True;";//_configuration.GetSection("ConnectionStrings:ApplicationDB");                    
+            var connectionString = "data source=DESKTOP-T7EUHG4\\SQLEXPRESS;initial catalog=WebApplication3tierApp;integrated security=True;MultipleActiveResultSets=True;TrustServerCertificate=True;";//_configuration.GetSection("ConnectionStrings:ApplicationDB");                    
 
             var columnOptions = new ColumnOptions
             {
@@ -38,12 +38,12 @@ namespace _1CommonInfrastructure.Services
                     new SqlColumn { ColumnName = "UserId", DataLength = 100, DataType = SqlDbType.NVarChar, AllowNull = false },
                     new SqlColumn { ColumnName = "AdditionalInfo", DataType = SqlDbType.NVarChar }
                 }
-            };            
+            };
 
 #if DEBUG
             Serilog.Debugging.SelfLog.Enable(msg => System.Diagnostics.Debug.WriteLine(msg));
-#endif                         
-            
+#endif
+
             var log = new LoggerConfiguration()
                 //.MinimumLevel.ControlledBy()
                 .Enrich.FromLogContext()
@@ -51,19 +51,19 @@ namespace _1CommonInfrastructure.Services
                     connectionString: connectionString,
                     sinkOptions: new MSSqlServerSinkOptions { AutoCreateSqlTable = false, TableName = "LogEvents" },
                     columnOptions: columnOptions)
-                .CreateLogger();            
+                .CreateLogger();
             {
-               
-                    try
-                    {                        
-                        var userId = _userNameResolver.GetUsername();
-                        var info = string.Empty;
 
-                        if (additionalInfo != null)
-                        {
+                try
+                {
+                    var userId = _userNameResolver.GetUsername();
+                    var info = string.Empty;
+
+                    if (additionalInfo != null)
+                    {
                         //info = JsonConvert.SerializeObject(additionalInfo); 
-                           info = JsonSerializer.Serialize(additionalInfo);
-                        }
+                        info = JsonSerializer.Serialize(additionalInfo);
+                    }
 
                     if (ex is null)
                     {
@@ -78,13 +78,13 @@ namespace _1CommonInfrastructure.Services
                              .ForContext("UserId", userId)
                              .ForContext("AdditionalInfo", info)
                              .Error(ex, message);
-                    }                       
-
                     }
-                    catch (Exception unhex)
-                    {
-                       throw new Exception("not hanlded in logging");
-                    }                
+
+                }
+                catch (Exception unhex)
+                {
+                    throw new Exception("not hanlded in logging");
+                }
             }
         }
     }
