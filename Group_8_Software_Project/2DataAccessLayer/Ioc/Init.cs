@@ -8,7 +8,7 @@ namespace _2DataAccessLayer.Ioc
     public static class Init
     {
         public static void InitializeDependencies(IServiceCollection services, IConfiguration configuration)
-        {            
+        {
             //services.AddScoped<IAuditDal, AuditDal>();
             //services.AddScoped<IApplicationLogDal, ApplicationLogDal>();
             //services.AddScoped<IAuthDal, AuthDal>();
@@ -17,13 +17,14 @@ namespace _2DataAccessLayer.Ioc
             //services.AddScoped<IDocumentDataDal, DocumentDataDal>();
             //services.AddScoped<IDocumentDataTempDal, DocumentDataTempDal>();
             //services.AddScoped<IUserDal, UserDal>();
-            
+
             services.AddScoped<IPersonDal, PersonDal>();
             services.AddScoped<IStudentDal, StudentDal>();
             services.AddScoped<IEmployeeDal, EmployeeDal>();
 
             services.AddScoped<ISecurityDal, SecurityDal>();
-            
+            services.AddScoped<IUnitDal, UnitDal>();
+
 
         }
     }
