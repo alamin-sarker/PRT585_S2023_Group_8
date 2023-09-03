@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _2DataAccessLayer.Context
-{   
+{
 
     public class DBEntitiesContext : DbContext
     {
@@ -22,6 +22,7 @@ namespace _2DataAccessLayer.Context
 
         public DbSet<Employee> Employees { get; set; }
 
+        public DbSet<Unit> Units { get; set; }
 
         //security models
         public DbSet<UserAccount> UserAccounts { get; set; }
