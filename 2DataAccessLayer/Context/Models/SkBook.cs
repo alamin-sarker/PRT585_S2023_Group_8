@@ -10,7 +10,7 @@ namespace _2DataAccessLayer.Context.Models
     {
         public int SkBookId { get; set; } // int
         public string SkBookName { get; set; } // nvarchar(400)
-        public string AuthorName { get; set; } 
+        public string AurthorName { get; set; } 
         
     }
 }

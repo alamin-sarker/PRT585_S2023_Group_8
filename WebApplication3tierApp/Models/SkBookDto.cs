@@ -17,7 +17,7 @@ namespace WebApplication3tierApp.Models
             var dst = new SkBookDto();
             dst.SkBookId = src.SkBookId;
             dst.SkBookName = src.SkBookName;
-            dst.AurthorName = src.AuthorName;            
+            dst.AurthorName = src.AurthorName;            
             return dst;
         }
 
@@ -26,7 +26,7 @@ namespace WebApplication3tierApp.Models
             var dst = new SkBookModel();
             dst.SkBookId = src.SkBookId;
             dst.SkBookName = src.SkBookName;   
-            dst.AuthorName = src.AurthorName;            
+            dst.AurthorName = src.AurthorName;            
             return dst;
         }
     }

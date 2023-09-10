@@ -17,7 +17,7 @@ namespace _2DataAccessLayer.Maps
 
             dst.SkBookId = src.SkBookId;
             dst.SkBookName = src.SkBookName;
-            dst.AuthorName = src.AuthorName;
+            dst.AurthorName = src.AurthorName;
 
             return dst;
         }
@@ -31,7 +31,7 @@ namespace _2DataAccessLayer.Maps
 
             dst.SkBookId = src.SkBookId;
             dst.SkBookName = src.SkBookName;
-            dst.AuthorName = src.AuthorName;
+            dst.AurthorName = src.AurthorName;
 
             return dst;
         }
