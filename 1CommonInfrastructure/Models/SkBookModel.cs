@@ -9,8 +9,8 @@ namespace _1CommonInfrastructure.Models
 {
     public class SkBookModel
     {
-        public int BookId { get; set; } // int
-        public string BookName { get; set; } // nvarchar(400)
+        public int SkBookId { get; set; } // int
+        public string SkBookName { get; set; } // nvarchar(400)
          public string AuthorName { get; set; }
 
     }
