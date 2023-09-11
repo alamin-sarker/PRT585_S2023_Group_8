@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": []
+  },
+  "packageFolders": {
+<<<<<<< Updated upstream
+    "/Users/alaminsarker/.nuget/packages/": {}
+=======
+    "/Users/carolinadecala/.nuget/packages/": {}
+>>>>>>> Stashed changes
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+<<<<<<< Updated upstream
+      "projectUniqueName": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Rishika_S359870/Week1/BlazerAppToDoList/BlazerAppToDoList.csproj",
+      "projectName": "BlazerAppToDoList",
+      "projectPath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Rishika_S359870/Week1/BlazerAppToDoList/BlazerAppToDoList.csproj",
+      "packagesPath": "/Users/alaminsarker/.nuget/packages/",
+      "outputPath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Rishika_S359870/Week1/BlazerAppToDoList/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/alaminsarker/.nuget/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "/Users/carolinadecala/Documents/PRT585_S2023_Group_8/Rishika_S359870/Week1/BlazerAppToDoList/BlazerAppToDoList.csproj",
+      "projectName": "BlazerAppToDoList",
+      "projectPath": "/Users/carolinadecala/Documents/PRT585_S2023_Group_8/Rishika_S359870/Week1/BlazerAppToDoList/BlazerAppToDoList.csproj",
+      "packagesPath": "/Users/carolinadecala/.nuget/packages/",
+      "outputPath": "/Users/carolinadecala/Documents/PRT585_S2023_Group_8/Rishika_S359870/Week1/BlazerAppToDoList/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/carolinadecala/.nuget/NuGet/NuGet.Config"
+>>>>>>> Stashed changes
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+<<<<<<< Updated upstream
+        "/usr/local/share/dotnet/library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+=======
+        "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+>>>>>>> Stashed changes
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+<<<<<<< Updated upstream
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
+      }
+    }
+  }
+}
