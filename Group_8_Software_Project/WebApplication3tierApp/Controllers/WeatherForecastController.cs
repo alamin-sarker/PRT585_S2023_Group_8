@@ -6,10 +6,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication3tierApp.Controllers
-{    
+{
     [Route("[controller]")]
     [ApiController]
     [Produces("application/json")]
+    [AllowAnonymous]
     public class WeatherForecastController : BaseController
     {
         private static readonly string[] Summaries = new[]
@@ -20,10 +21,10 @@ namespace WebApplication3tierApp.Controllers
         private readonly ILogger<WeatherForecastController> _logger;
         private readonly ISecurityService _securityService;
         private readonly ILoggingService _loggingService;
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, ISecurityService securityService, ILoggingService loggingService) 
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, ISecurityService securityService, ILoggingService loggingService)
         {
             _logger = logger;
-            _securityService= securityService;
+            _securityService = securityService;
             _loggingService = loggingService;
         }
 
@@ -47,7 +48,7 @@ namespace WebApplication3tierApp.Controllers
 
             _loggingService.WriteLog("GetUserDetails", "test", ss);
 
-            _loggingService.WriteLog("GetUserDetails", "testError",ex: new Exception("testing exception"));
+            _loggingService.WriteLog("GetUserDetails", "testError", ex: new Exception("testing exception"));
             return new JsonResult(ss);
         }
 

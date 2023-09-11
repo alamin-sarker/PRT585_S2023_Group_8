@@ -1,6 +1,7 @@
 ﻿using _2DataAccessLayer.Services;
 using _3BusinessLogicLayer.Interfaces;
 using _3BusinessLogicLayer.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication3tierApp.Models;
@@ -10,13 +11,14 @@ namespace WebApplication3tierApp.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Produces("application/json")]
+    [AllowAnonymous]
     public class PersonController : BaseController
     {
 
         private readonly IPersonService _personService;
         private readonly ILogger<PersonController> _logger;
         private readonly ISecurityService _securityService;
-       
+
         public PersonController(IPersonService personService, ILogger<PersonController> logger, ISecurityService securityService)
         {
             _personService = personService;

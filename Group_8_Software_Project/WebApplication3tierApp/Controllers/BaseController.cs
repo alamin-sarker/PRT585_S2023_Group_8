@@ -8,9 +8,10 @@ namespace WebApplication3tierApp.Controllers
 {
 
     [Authorize]
+    [AllowAnonymous]
     public abstract class BaseController : ControllerBase
     {
-        
+
         //public string GetUsername()
         //{
         //    var username = User.Identity.Name;        
@@ -18,7 +19,7 @@ namespace WebApplication3tierApp.Controllers
         //    return username;
         //}
     }
-    
+
 
     public class UserNameResolver : IUserNameResolver
     {
@@ -33,9 +34,9 @@ namespace WebApplication3tierApp.Controllers
         {
             var username = _httpContextAccessor.HttpContext.User.Identity.Name;
             return username;
-        }     
+        }
 
     }
 
-   
+
 }
