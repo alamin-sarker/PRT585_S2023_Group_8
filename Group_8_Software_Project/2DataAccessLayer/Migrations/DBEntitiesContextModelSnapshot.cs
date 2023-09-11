@@ -145,8 +145,6 @@ namespace _2DataAccessLayer.Migrations
                     b.ToTable("SystemActions");
                 });
 
-<<<<<<< HEAD
-=======
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.Teacher", b =>
                 {
                     b.Property<int>("TeacherId")
@@ -168,7 +166,6 @@ namespace _2DataAccessLayer.Migrations
                     b.ToTable("Teachers");
                 });
 
->>>>>>> 9ba0ba8461991efd43ddd0dad0e6eeb9492a2325
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.Unit", b =>
                 {
                     b.Property<int>("UnitId")
