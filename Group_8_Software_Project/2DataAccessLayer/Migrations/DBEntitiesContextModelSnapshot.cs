@@ -22,6 +22,27 @@ namespace _2DataAccessLayer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("_2DataAccessLayer.Context.Models.Course", b =>
+                {
+                    b.Property<int>("CourseId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CourseId"), 1L, 1);
+
+                    b.Property<string>("CourseCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CourseName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CourseId");
+
+                    b.ToTable("Courses");
+                });
+
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.Employee", b =>
                 {
                     b.Property<int>("EmployeeId")
@@ -124,6 +145,51 @@ namespace _2DataAccessLayer.Migrations
                     b.ToTable("SystemActions");
                 });
 
+<<<<<<< HEAD
+=======
+            modelBuilder.Entity("_2DataAccessLayer.Context.Models.Teacher", b =>
+                {
+                    b.Property<int>("TeacherId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TeacherId"), 1L, 1);
+
+                    b.Property<string>("TeacherCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TeacherName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TeacherId");
+
+                    b.ToTable("Teachers");
+                });
+
+>>>>>>> 9ba0ba8461991efd43ddd0dad0e6eeb9492a2325
+            modelBuilder.Entity("_2DataAccessLayer.Context.Models.Unit", b =>
+                {
+                    b.Property<int>("UnitId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UnitId"), 1L, 1);
+
+                    b.Property<string>("UnitCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UnitName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UnitId");
+
+                    b.ToTable("Units");
+                });
+
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.UserAccount", b =>
                 {
                     b.Property<int>("UserAccountID")
@@ -158,6 +224,44 @@ namespace _2DataAccessLayer.Migrations
                     b.HasIndex("UserAccountsUserAccountID");
 
                     b.ToTable("SystemActionUserAccount");
+                });
+
+            modelBuilder.Entity("Teacher", b =>
+                {
+                    b.Property<int>("TeacherId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TeacherId"), 1L, 1);
+
+                    b.Property<string>("TeacherName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TeacherId");
+
+                    b.ToTable("Teachers");
+                });
+
+            modelBuilder.Entity("Unit", b =>
+                {
+                    b.Property<int>("UnitId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UnitId"), 1L, 1);
+
+                    b.Property<string>("UnitCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UnitName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UnitId");
+
+                    b.ToTable("Units");
                 });
 
             modelBuilder.Entity("SystemActionUserAccount", b =>

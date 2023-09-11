@@ -7,27 +7,31 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _2DataAccessLayer.Context
-{   
+{
 
-    public class DBEntitiesContext : DbContext
-    {
-        public DBEntitiesContext(DbContextOptions<DBEntitiesContext> options) : base(options)
+        public class DBEntitiesContext : DbContext
         {
+                public DBEntitiesContext(DbContextOptions<DBEntitiesContext> options) : base(options)
+                {
+                }
+
+                public DbSet<Person> People { get; set; }
+                public DbSet<Movie> Movies { get; set; }
+
+                public DbSet<Student> Students { get; set; }
+
+                public DbSet<Unit> Units { get; set; }
+
+                public DbSet<Course> Courses { get; set; }
+                public DbSet<Teacher> Teachers { get; set; }
+
+                public DbSet<Employee> Employees { get; set; }
+
+                //security models
+                public DbSet<UserAccount> UserAccounts { get; set; }
+
+                public DbSet<SystemAction> SystemActions { get; set; }
+
         }
-
-        public DbSet<Person> People { get; set; }
-        public DbSet<Movie> Movies { get; set; }
-
-        public DbSet<Student> Students { get; set; }
-
-        public DbSet<Employee> Employees { get; set; }
-
-
-        //security models
-        public DbSet<UserAccount> UserAccounts { get; set; }
-
-        public DbSet<SystemAction> SystemActions { get; set; }
-
-    }
 
 }

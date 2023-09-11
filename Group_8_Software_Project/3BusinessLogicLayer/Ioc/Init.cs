@@ -9,13 +9,15 @@ namespace _3BusinessLogicLayer.Ioc
     {
         public static void InitializeDependencies(IServiceCollection services, IConfiguration configuration)
         {
-                      
+
             // Services
             services.AddScoped<IPersonService, PersonService>();
             services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<IEmployeeService, EmployeeService>();
-
+            services.AddScoped<ICourseService, CourseService>();
+            services.AddScoped<ITeacherService, TeacherService>();
             services.AddScoped<ISecurityService, SecurityService>();
+            services.AddScoped<IUnitService, UnitService>();
             //services.AddScoped<ICategoryService, CategoryService>();
 
         }
