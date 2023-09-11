@@ -1,0 +1,14 @@
+{
+  "version": 2,
+<<<<<<< Updated upstream
+  "dgSpecHash": "VCq7w7fyjMoPqGGHkdjQivumFqGVluf/i6riSc2ET5gwPA1CGODMTyqTgNIQW3waRnM6qv2OaDFOkrq1S2iMYg==",
+  "success": true,
+  "projectFilePath": "/Users/alaminsarker/Documents/Project/PRT585_S2023_Group_8/PRT585_S2023_Group_8/Anup_S360825/Week1/BlazorApp/BlazorApp.csproj",
+=======
+  "dgSpecHash": "uMNvCO5dNH5uNFhSkWLkLyau7eOKGhx1RiQHA/uwcln+E3mf1Ttv5Gu3Qx3H6SGKlFR2AxUZLP9vFfjXY4n0kA==",
+  "success": true,
+  "projectFilePath": "/Users/carolinadecala/Documents/PRT585_S2023_Group_8/Anup_S360825/Week1/BlazorApp/BlazorApp.csproj",
+>>>>>>> Stashed changes
+  "expectedPackageFiles": [],
+  "logs": []
+}
