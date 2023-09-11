@@ -14,11 +14,10 @@ namespace _3BusinessLogicLayer.Ioc
             services.AddScoped<IPersonService, PersonService>();
             services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<IEmployeeService, EmployeeService>();
-            services.AddScoped<IUnitService, UnitService>();
             services.AddScoped<ICourseService, CourseService>();
+            services.AddScoped<ITeacherService, TeacherService>();
             services.AddScoped<ISecurityService, SecurityService>();
             services.AddScoped<IUnitService, UnitService>();
-            services.AddScoped<ITeacherService, TeacherService>();
             //services.AddScoped<ICategoryService, CategoryService>();
 
         }

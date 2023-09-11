@@ -9,8 +9,9 @@ namespace _1CommonInfrastructure.Models
 {
     public class TeacherModel
     {
-        public int TeacherId { get; set; }
-        public string TeacherName { get; set; }
+        public int TeacherId { get; set; } // int
+        public string TeacherCode { get; set; } // nvarchar(400)
+        public string TeacherName { get; set; } // nvarchar(400)
 
     }
 

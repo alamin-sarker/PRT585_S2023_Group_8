@@ -16,8 +16,13 @@ namespace _2DataAccessLayer.Maps
             var dst = new UnitModel();
 
             dst.UnitId = src.UnitId;
+<<<<<<< HEAD
             dst.UnitName = src.UnitName;
             dst.UnitCode = src.UnitCode;
+=======
+            dst.UnitCode = src .UnitCode;
+            dst.UnitName = src.UnitName;
+>>>>>>> 9ba0ba8461991efd43ddd0dad0e6eeb9492a2325
 
             return dst;
         }
@@ -30,8 +35,13 @@ namespace _2DataAccessLayer.Maps
             }
 
             dst.UnitId = src.UnitId;
+<<<<<<< HEAD
             dst.UnitName = src.UnitName;
             dst.UnitCode = src.UnitCode;
+=======
+            dst.UnitCode = src .UnitCode;
+            dst.UnitName = src.UnitName;
+>>>>>>> 9ba0ba8461991efd43ddd0dad0e6eeb9492a2325
 
             return dst;
         }

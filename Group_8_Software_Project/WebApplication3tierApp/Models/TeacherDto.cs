@@ -5,6 +5,8 @@ namespace WebApplication3tierApp.Models
     public class TeacherDto
     {
         public int TeacherId { get; set; }
+
+        public string TeacherCode { get; set; }
         public string TeacherName { get; set; }
 
     }
@@ -15,6 +17,7 @@ namespace WebApplication3tierApp.Models
         {
             var dst = new TeacherDto();
             dst.TeacherId = src.TeacherId;
+            dst.TeacherCode = src.TeacherCode;
             dst.TeacherName = src.TeacherName;
             return dst;
         }
@@ -23,6 +26,7 @@ namespace WebApplication3tierApp.Models
         {
             var dst = new TeacherModel();
             dst.TeacherId = src.TeacherId;
+            dst.TeacherCode = src.TeacherCode;
             dst.TeacherName = src.TeacherName;
             return dst;
         }
