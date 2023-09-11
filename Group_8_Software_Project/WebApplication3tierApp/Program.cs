@@ -28,8 +28,9 @@ builder.Services.AddCors(options =>
     });
 });
 
-builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
-   .AddNegotiate();
+// The following has been commented out to resolve the 401 Unauthorised issue. 
+// builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
+//    .AddNegotiate();
 
 builder.Services.AddControllers()
     .AddNewtonsoftJson(options =>
