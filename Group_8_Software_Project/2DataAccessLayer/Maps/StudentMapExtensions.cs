@@ -17,6 +17,10 @@ namespace _2DataAccessLayer.Maps
 
             dst.StudentId = src.StudentId;
             dst.StudentName = src.StudentName;
+            dst.StudentCourse = src.StudentCourse;
+            dst.StudentSemester = src.StudentSemester;
+            dst.StudentEmail = src.StudentEmail;
+            dst.StudentPhoneNumber = src.StudentPhoneNumber;
 
             return dst;
         }
@@ -30,7 +34,10 @@ namespace _2DataAccessLayer.Maps
 
             dst.StudentId = src.StudentId;
             dst.StudentName = src.StudentName;
-
+            dst.StudentCourse = src.StudentCourse;
+            dst.StudentSemester = src.StudentSemester;
+            dst.StudentEmail = src.StudentEmail;
+            dst.StudentPhoneNumber = src.StudentPhoneNumber;
             return dst;
         }
     }
