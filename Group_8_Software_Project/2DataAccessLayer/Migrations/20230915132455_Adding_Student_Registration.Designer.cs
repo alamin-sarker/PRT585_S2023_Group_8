@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using _2DataAccessLayer.Context;
 
@@ -11,9 +12,10 @@ using _2DataAccessLayer.Context;
 namespace _2DataAccessLayer.Migrations
 {
     [DbContext(typeof(DBEntitiesContext))]
-    partial class DBEntitiesContextModelSnapshot : ModelSnapshot
+    [Migration("20230915132455_Adding_Student_Registration")]
+    partial class Adding_Student_Registration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -126,11 +128,11 @@ namespace _2DataAccessLayer.Migrations
 
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.StudentRegistration", b =>
                 {
-                    b.Property<int>("StudentRegistrationId")
+                    b.Property<long>("RegistrationId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("bigint");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentRegistrationId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("RegistrationId"), 1L, 1);
 
                     b.Property<string>("Course")
                         .IsRequired()
@@ -172,9 +174,9 @@ namespace _2DataAccessLayer.Migrations
                     b.Property<int>("TimeAvailability")
                         .HasColumnType("int");
 
-                    b.HasKey("StudentRegistrationId");
+                    b.HasKey("RegistrationId");
 
-                    b.ToTable("StudentRegistrations");
+                    b.ToTable("StudentRegistration");
                 });
 
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.SystemAction", b =>

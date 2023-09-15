@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using _2DataAccessLayer.Context;
 
@@ -11,9 +12,10 @@ using _2DataAccessLayer.Context;
 namespace _2DataAccessLayer.Migrations
 {
     [DbContext(typeof(DBEntitiesContext))]
-    partial class DBEntitiesContextModelSnapshot : ModelSnapshot
+    [Migration("20230915122851_First migration")]
+    partial class Firstmigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -122,59 +124,6 @@ namespace _2DataAccessLayer.Migrations
                     b.HasKey("StudentId");
 
                     b.ToTable("Students");
-                });
-
-            modelBuilder.Entity("_2DataAccessLayer.Context.Models.StudentRegistration", b =>
-                {
-                    b.Property<int>("StudentRegistrationId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentRegistrationId"), 1L, 1);
-
-                    b.Property<string>("Course")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("CurrentSemester")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ExpectedOutcome")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<long>("PhoneNumber")
-                        .HasColumnType("bigint");
-
-                    b.Property<int>("PhotographyConsent")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PreferredName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ReasonsToJoin")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("StudentID")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("StudentName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("TimeAvailability")
-                        .HasColumnType("int");
-
-                    b.HasKey("StudentRegistrationId");
-
-                    b.ToTable("StudentRegistrations");
                 });
 
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.SystemAction", b =>
