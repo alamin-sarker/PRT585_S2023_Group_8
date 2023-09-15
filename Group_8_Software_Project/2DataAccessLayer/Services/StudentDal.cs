@@ -70,8 +70,6 @@ namespace _2DataAccessLayer.Services
             var efModel = _db.Students.Find(StudentId);
             _db.Students.Remove(efModel);
             _db.SaveChanges();
-
-
         }
 
     }
