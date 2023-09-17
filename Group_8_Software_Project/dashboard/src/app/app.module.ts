@@ -13,7 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IconsProviderModule } from './icons-provider.module';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './pages/login/login.component';
 
 registerLocaleData(uk);
 
@@ -29,7 +29,7 @@ registerLocaleData(uk);
     BrowserAnimationsModule,
     IconsProviderModule,
     NzLayoutModule,
-    NzMenuModule,
+    NzMenuModule
   ],
   providers: [
     { provide: NZ_I18N, useValue: uk_UA }
