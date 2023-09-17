@@ -7,28 +7,14 @@ import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  validateForm!: UntypedFormGroup;
-
-  submitForm(): void {
-    if (this.validateForm.valid) {
-      console.log('submit', this.validateForm.value);
-    } else {
-      Object.values(this.validateForm.controls).forEach(control => {
-        if (control.invalid) {
-          control.markAsDirty();
-          control.updateValueAndValidity({ onlySelf: true });
-        }
-      });
-    }
-  }
-
+  validateForm!: UntypedFormGroup; //you can look into this predefined library
   constructor(private fb: UntypedFormBuilder) {}
 
   ngOnInit(): void {
     this.validateForm = this.fb.group({
-      userName: [null, [Validators.required]],
-      password: [null, [Validators.required]],
-      remember: [true]
+      // userName: [null, [Validators.required]],
+      // password: [null, [Validators.required]],
+      // remember: [true]
     });
   }
 }
