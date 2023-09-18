@@ -19,7 +19,10 @@
           </li>
           <li nz-submenu nzTitle="Students" nzIcon="team">
             <ul>
-              <li nz-menu-item>All Students</li>
+              <li nz-menu-item nzMatchRouter>
+                <a routerLink="/student-registration">Student Registration</a>
+              </li>
+              <!-- <li nz-menu-item>All Students</li> -->
               <li nz-menu-item>Registered Students</li>
               <li nz-menu-item>New Commers</li>
             </ul>
