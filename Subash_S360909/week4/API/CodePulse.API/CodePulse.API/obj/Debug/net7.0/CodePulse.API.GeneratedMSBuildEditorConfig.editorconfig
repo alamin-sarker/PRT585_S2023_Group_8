@@ -9,17 +9,9 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CodePulse.API
 build_property.RootNamespace = CodePulse.API
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\HP\Documents\PRT585_S2023_Group_8\PRT585_S2023_Group_8\Subash_S360909\week4\API\CodePulse.API\CodePulse.API\
+build_property.ProjectDir = C:\Users\HP\Documents\prt585\Subash_S360909\week4\API\CodePulse.API\CodePulse.API\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\HP\Documents\PRT585_S2023_Group_8\PRT585_S2023_Group_8\Subash_S360909\week4\API\CodePulse.API\CodePulse.API
-=======
-build_property.ProjectDir = C:\CDU\PRT585\PRT585_S2023_Group_8\Subash_S360909\week4\API\CodePulse.API\CodePulse.API\
-build_property.RazorLangVersion = 7.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\CDU\PRT585\PRT585_S2023_Group_8\Subash_S360909\week4\API\CodePulse.API\CodePulse.API
->>>>>>> 9ba0ba8461991efd43ddd0dad0e6eeb9492a2325
+build_property.MSBuildProjectDirectory = C:\Users\HP\Documents\prt585\Subash_S360909\week4\API\CodePulse.API\CodePulse.API
 build_property._RazorSourceGeneratorDebug = 
