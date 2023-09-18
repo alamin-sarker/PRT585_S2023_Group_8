@@ -11,6 +11,7 @@ namespace WebApplication3tierApp.Controllers
     [ApiController]
     [Produces("application/json")]
     [AllowAnonymous]
+    [Authorize]
     public class StudentController : BaseController
     {
 
