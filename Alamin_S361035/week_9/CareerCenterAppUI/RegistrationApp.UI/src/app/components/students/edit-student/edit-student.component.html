@@ -1,0 +1,76 @@
+<div class="container my-5">
+    <h1 class="mb-3">Student Registration</h1>
+    
+    <div class="row">
+        <div class="col-6">
+            <form #form="ngForm" (ngSubmit)="updateStudent()">
+                <div class="mb-3">
+                    <label for="StudentRegistrationId" class="form-label">Student Registration Id</label>
+                    <input type="number" class="form-control" id="StudentRegistrationId" readonly
+                    name="StudentRegistrationId" [(ngModel)]="studentDetails.StudentRegistrationId">
+                  </div>
+                <div class="mb-3">
+                  <label for="studentName" class="form-label">Student Name</label>
+                  <input type="text" class="form-control" id="studentName" 
+                  name="studentName" [(ngModel)]="studentDetails.StudentName">
+                </div>
+                <div class="mb-3">
+                    <label for="preferredName" class="form-label">Preferred Name</label>
+                    <input type="text" class="form-control" id="preferredName"
+                     name="preferredName" [(ngModel)]="studentDetails.PreferredName">
+                </div>
+                <div class="mb-3">
+                    <label for="studentID" class="form-label">Student ID</label>
+                    <input type="text" class="form-control" id="studentID"
+                    name="studentID" [(ngModel)]="studentDetails.StudentID">
+                </div>
+                <div class="mb-3">
+                    <label for="course" class="form-label">Course</label>
+                    <input type="text" class="form-control" id="course" 
+                    name="course" [(ngModel)]="studentDetails.Course">
+                </div>
+                <div class="mb-3">
+                    <label for="currentSemester" class="form-label">Current Semester</label>
+                    <input type="number" class="form-control" id="currentSemester" 
+                    name="currentSemester" [(ngModel)]="studentDetails.CurrentSemester">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Student Email</label>
+                    <input type="email" class="form-control" id="email" 
+                    name="email" [(ngModel)]="studentDetails.Email">
+                </div>
+                <div class="mb-3">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <input type="number" class="form-control" id="phoneNumber" 
+                    name="phoneNumber" [(ngModel)]="studentDetails.PhoneNumber">
+                </div>
+                <div class="mb-3">
+                    <label for="reasonsToJoin" class="form-label">Reasons To Join</label>
+                    <input type="text" class="form-control" id="reasonsToJoin" 
+                    name="reasonsToJoin" [(ngModel)]="studentDetails.ReasonsToJoin">
+                </div>
+                <div class="mb-3">
+                    <label for="expectedOutcome" class="form-label">Expected Outcome</label>
+                    <input type="text" class="form-control" id="expectedOutcome" 
+                    name="expectedOutcome" [(ngModel)]="studentDetails.ExpectedOutcome">
+                </div>
+                <div class="mb-3">
+                    <label for="timeAvailability" class="form-label">Time Availability</label>
+                    <input type="number" class="form-control" id="timeAvailability" 
+                    name="timeAvailability" [(ngModel)]="studentDetails.TimeAvailability">
+                </div>
+                <div class="mb-3">
+                    <label for="Photography Consent" class="form-label">Photography Consent</label>
+                    <input type="number" class="form-control" id="photographyConsent" 
+                    name="photographyConsent" [(ngModel)]="studentDetails.PhotographyConsent">
+                </div>
+                <button type="submit" class="btn btn-primary mr-5">Save</button>
+                <button type="button" class="btn btn-danger mr-5" 
+                (click)="deleteStudent(studentDetails.StudentRegistrationId)">Delete</button>
+              </form>
+        </div>
+    </div>
+    
+    
+    </div>
+    

@@ -1,0 +1,44 @@
+<div class="container my-5">
+    <h1 class="mb-3">Students List</h1>
+    <table class="table" *ngIf="students && students.length > 0">
+    <thead>
+        <tr>
+            <th>Registration Id</th>
+            <th>Student Name</th>
+            <th>Preferred Name</th>
+            <th>Student ID</th>
+            <th>Course</th>
+            <th>Student Email</th>
+            <th>Current Semester</th>
+            <th>Phone Number</th>
+            <th>Reasons To Join</th>
+            <th>Expected Outcome</th>
+            <th>Time Availability</th>
+            <th>Photography Consent</th>
+            <th> </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of students">
+            <td>{{student.StudentRegistrationId}}</td>
+            <td>{{student.StudentName}}</td>
+            <td>{{student.PreferredName}}</td>
+            <td>{{student.StudentID}}</td>
+            <td>{{student.Course}}</td>
+            <td>{{student.Email}}</td>
+            <td>{{student.CurrentSemester}}</td>
+            <td>{{student.PhoneNumber}}</td>
+            <td>{{student.ReasonsToJoin}}</td>
+            <td>{{student.ExpectedOutcome}}</td>
+            <td>{{student.TimeAvailability}}</td>
+            <td>{{student.PhotographyConsent}}</td>
+            
+            <td><a [routerLink]="['/students', 'edit', student.StudentRegistrationId]">View</a></td>
+    
+        </tr>
+    </tbody>
+    </table>
+    <p *ngIf="!students || students.length <= 0">No Students Found.</p>
+    </div>
+   
