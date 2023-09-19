@@ -29,7 +29,8 @@ registerLocaleData(uk);
     BrowserAnimationsModule,
     IconsProviderModule,
     NzLayoutModule,
-    NzMenuModule
+    NzMenuModule, 
+    FormsModule
   ],
   providers: [
     { provide: NZ_I18N, useValue: uk_UA }

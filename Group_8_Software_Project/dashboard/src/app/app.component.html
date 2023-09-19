@@ -19,10 +19,10 @@
           </li>
           <li nz-submenu nzTitle="Students" nzIcon="team">
             <ul>
-              <li nz-menu-item nzMatchRouter>
+              <!-- <li nz-menu-item nzMatchRouter>
                 <a routerLink="/student-registration">Student Registration</a>
-              </li>
-              <!-- <li nz-menu-item>All Students</li> -->
+              </li> -->
+              <li nz-menu-item>All Students</li>
               <li nz-menu-item>Registered Students</li>
               <li nz-menu-item>New Commers</li>
             </ul>
@@ -31,7 +31,13 @@
       </li>
       <li nz-submenu nzTitle="Profile" nzIcon="team">
         <ul>
-          <li nz-menu-item>Login</li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/api/auth/login">Login</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/api/auth/register">Register</a>
+          </li>
+          <!-- <li nz-menu-item>Login</li> -->
           <li nz-menu-item>Logout</li>
         </ul>
       </li>

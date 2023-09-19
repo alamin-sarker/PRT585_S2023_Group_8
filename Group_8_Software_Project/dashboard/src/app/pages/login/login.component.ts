@@ -1,20 +1,37 @@
 import { Component, OnInit } from '@angular/core';
-import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
+import { NgModel } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class LoginComponent implements OnInit {
-  validateForm!: UntypedFormGroup; //you can look into this predefined library
-  constructor(private fb: UntypedFormBuilder) {}
+export class LoginComponent{
+  username: string = '';
+  password: string = '';
+  
+  // constructor(private http: HttpClient) {}
 
-  ngOnInit(): void {
-    this.validateForm = this.fb.group({
-      // userName: [null, [Validators.required]],
-      // password: [null, [Validators.required]],
-      // remember: [true]
-    });
-  }
+  submit() 
+  {
+    const data = {
+    username: this.username,
+    password: this.password,
+  };
+
+  // Replace 'http://localhost:5115' with the actual URL of your backend API
+  const apiUrl = 'http://localhost:5115/api/login'; // Replace '/api/login' with your API endpoint
+
+  // Send a POST request to your backend
+  // this.http.post(apiUrl, data).subscribe(
+  //   (response: any) => {
+  //     console.log('Response from server:', response);
+  //     // Handle the response from the server here
+  //   },
+  //   (error: any) => {
+  //     console.error('Error:', error);
+  //     // Handle any errors that occur during the request
+  //   }
+  // );
+}
 }
